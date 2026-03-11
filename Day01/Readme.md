@@ -17,6 +17,18 @@ How can you run ansible playbook against a specific set of hosts:
 ansible module to manage aws resources: ec2
 =========================================================================================================
 
+$ ansible --version
+ansible [core 2.17.14]
+  config file = /etc/ansible/ansible.cfg
+  configured module search path = ['/home/vedangi/.ansible/plugins/modules', '/usr/share/ansible/plugins/modules']
+  ansible python module location = /usr/lib/python3/dist-packages/ansible
+  ansible collection location = /home/vedangi/.ansible/collections:/usr/share/ansible/collections
+  executable location = /usr/bin/ansible
+  python version = 3.10.12 (main, Mar  3 2026, 11:56:32) [GCC 11.4.0] (/usr/bin/python3)
+  jinja version = 3.0.3
+  libyaml = True
+
+=========================================================================================================
 
 Terraform: Build/Provision the infrastructure (to build vm on cloud)
 Ansible: Manage/Configure/Update the infrastructure (to patch/update os)
