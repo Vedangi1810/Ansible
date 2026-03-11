@@ -1,0 +1,57 @@
+What is Ansible and how is it different from other configuration management tools like Puppet or Chef?
+
+Explain the architecture of Ansible. What are the main components?
+
+What is an Ansible Inventory? Difference between static and dynamic inventory.
+
+What are Ansible modules? Can you give examples of commonly used modules?
+
+What is an Ansible Playbook? How is it structured?
+
+Difference between a task, role, and handler in Ansible.
+
+How do you use variables in Ansible Playbooks?
+
+What are Ansible facts and how are they gathered?
+
+How do you handle sensitive data in Ansible?
+
+Explain the difference between when, tags, and register in Playbooks.
+
+How do you run a specific task or tag in Ansible?
+
+How do you test and debug an Ansible Playbook?
+
+How do you ensure idempotency in Ansible Playbooks?
+
+Explain the concept of Ansible Roles. Why do we use them?
+
+How do you implement error handling and retries in Ansible tasks?
+
+How can you optimize Ansible Playbook execution time?
+
+Difference between include and import in Ansible.
+
+How do you integrate Ansible with CI/CD pipelines.
+
+How do you manage large inventories across multiple environments (Dev/QA/Prod)?
+
+You need to deploy an application across 100+ servers. How would you design the Ansible Playbook?
+
+You have secrets like database passwords. How would you manage them securely in Ansible?
+
+How would you implement Blue-Green or Canary deployments using Ansible?
+
+Your Playbook is failing at a certain task, but you want the rest of the tasks to continue running. How would you handle this?
+
+How do you set up role-based access control (RBAC) with Ansible Tower/AWX?
+
+How would you automate Kubernetes cluster provisioning using Ansible?
+
+How do you use Ansible for patch management on hundreds of servers?
+
+You want to run different configurations based on environment (Dev, QA, Prod). How would you structure the Playbooks?
+
+How would you troubleshoot a failed Ansible Playbook run?
+
+You need to ensure zero-downtime deployments with Ansible. How would you achieve this?

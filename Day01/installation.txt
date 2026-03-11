@@ -1,0 +1,15 @@
+Step-by-Step Installation:
+Update System Packages:
+    sudo apt update
+
+Install Necessary Dependencies:
+    sudo apt install software-properties-common
+
+Add the Ansible PPA:
+    sudo add-apt-repository --yes --update ppa:ansible/ansible
+
+Install Ansible:
+    sudo apt install ansible -y
+
+Verify Installation:
+    ansible --version
