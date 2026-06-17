@@ -25,6 +25,14 @@ vim hosts.ini
 ansible -i hosts.ini servers -m ping
 ansible -i hosts.ini servers -a "uptime"
 ansible -i hosts.ini servers -a "apt-get install nginx" --become -v
+
+mkdir playbooks
+hello.yml
+ansible-playbook -i ../hosts.ini hello.yml -v
+ansible -i ../hosts.ini servers -m setup (get gathering facts)
+ansible -i ../hosts.ini servers -m setup | grep "os_family"
+
+Loops and conditions
 #####################################
 
 Ansible primarily based on : Python
