@@ -4,8 +4,8 @@ Configuration management tool
 Perform task on multiple system 
 
 Reduce time to market
-Manage multiple server 
-push based mechanism
+scalable approach to manage multiple server 
+push based mechanism - agentless
 
 chef and puppet = pull and push based mechanism
 
@@ -18,7 +18,15 @@ SSH Key pair
 server A -------> server B
 private           public
 
-=======================================================================================================
+vim hosts.ini
+[servers]
+[all:vars]
+
+ansible -i hosts.ini servers -m ping
+ansible -i hosts.ini servers -a "uptime"
+ansible -i hosts.ini servers -a "apt-get install nginx" --become -v
+#####################################
+
 Ansible primarily based on : Python
 Purpose of ansible.cfg file : To set ansbile options and default 
 ansible-playbook command: executes an ansible playbook that describes set of task, configurations and policies 
