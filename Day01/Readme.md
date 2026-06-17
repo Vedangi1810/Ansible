@@ -2,6 +2,22 @@ Ansible:
 
 Configuration management tool
 Perform task on multiple system 
+
+Reduce time to market
+Manage multiple server 
+push based mechanism
+
+chef and puppet = pull and push based mechanism
+
+Prerequisite:
+control node = ansible and python should be installed
+worker node = python should be installed
+
+SSH Key pair
+
+server A -------> server B
+private           public
+
 =======================================================================================================
 Ansible primarily based on : Python
 Purpose of ansible.cfg file : To set ansbile options and default 
