@@ -33,6 +33,23 @@ ansible -i ../hosts.ini servers -m setup (get gathering facts)
 ansible -i ../hosts.ini servers -m setup | grep "os_family"
 
 Loops and conditions
+
+Secret Vault
+secrets.yml
+show_secret.yml
+password_vault.yml (key)
+ansible-vault encrypt secrets.yml --vault-password-file password_vault.yml
+ansible-playbook -i hosts.ini show_secret.yml --vault-password-file password_vault.yml
+add no_log=true (when playbook executes no output is shown : best for secrets)
+
+Roles:
+Ansible Galaxy - to create roles
+roles - reusable templates for playbook
+ansible-galaxy init role/docker
+ls 
+  role
+cd role/
+docker
 #####################################
 
 Ansible primarily based on : Python
